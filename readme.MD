@@ -1,6 +1,9 @@
-This is a very basic smart contract deployed on the Ethereum rinkeby testnet
+This is a very basic lottery smart contract deployed on the Ethereum rinkeby testnet
 
-This contract sets up an "Inbox" with a message variable that can be viewed and modified
+This contract sets up an Lottery which players spend ether to enter.
+
+The manager of this contract can then call the pickWinner function to randomly select a 
+winner of all the ETH that was placed into the smart contract.
 
 If you wanted to deploy this contract, you would want to first install the dependencies 
 with:
@@ -25,6 +28,6 @@ If successfull, after a short wait this will return "Contract deployed to 0x....
 
 You can see my deployment of this contract at: 
 
-https://rinkeby.etherscan.io/address/0x14422b5cea6ae9fd008976c90dc5b5645efa26d9
+ 'Coming soon!'
 
 Thanks for reading!
